@@ -1,0 +1,22 @@
+﻿species,spp,genus,family,cols
+Acropora cf. subglabra,Asu,Acropora,Acroporiidae,#ff7f00
+Acropora cf. humilis,Ahu,Acropora,Acroporiidae,grey
+Acropora cf. hyacinthus,Ahy,Acropora,Acroporiidae,#1f78b4
+Acropora cf. muricata,Amu,Acropora,Acroporiidae,#6a3d9a
+Acropora cf. tenuis,Ate,Acropora,Acroporiidae,#fdbf6f
+Anacropora spinosa,Ana,Anacropora,Acroporiidae,slategrey
+Goniastrea spp.,Gon,Goniastrea,Lobo_merulinidae,#e31a1c
+Isopora cf. brueggemanni,Ibr,Isopora,Acroporiidae,#cab2d6
+Lobophyllia spp.,Lob,Lobophyllia,Lobo_merulinidae,#fb9a99
+Lobophyllia cf. corymbosa,Lco,Lobophyllia,Lobo_merulinidae,#fb9a99
+Lobophyllia cf. hemprichii,Lhe,Lobophyllia,Lobo_merulinidae,#fb9a99
+Pocillopora cf. damicornis,Pda,Pocillopora,Pocilloporidae,#a6cee3
+Pocillopora cf. verrucosa,Pve,Pocillopora,Pocilloporidae,grey
+Porites cf. attenuata,Pat,Porites,Poritidae,#33a02c
+Porites cf. cylindrica,Pcy,Porites,Poritidae,#33a02c
+Porites cf. nigrescens,Pni,Porites,Poritidae,grey
+Porites cf. rus,Pru,Porites,Poritidae,#b2df8a
+Stylophora cf. pistillata,Spi,Stylophora,Pocilloporidae,grey
+Goniastrea cf. retiformis,Gre,Goniastrea,Lobo_merulinidae,#e31a1c
+Goniastrea cf. stelligera,Gst,Goniastrea,Lobo_merulinidae,#e31a1c
+Goniastrea cf. favulus,Gfa,Goniastrea,Lobo_merulinidae,#e31a1c

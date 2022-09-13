@@ -1,1 +1,6 @@
-# intraspecific_diversity
+
+## Intraspecific diversity
+
+- Data and code from the paper entitled **"Instraspecific variation reshapes coral assemblages under elevated temperature and acidity"**
+
+- *Abstract:* Insights into assemblages that can persist in extreme environments are still emerging. Ocean warming and acidification select against species with low physiological tolerance (trait-based ‘filtering’). However, intraspecific trait variation can promote species adaptation and persistence, with potentially large effects on assemblage structure. By sampling nine coral traits (four morphological, four tissue, one skeletal) along an offshore-inshore gradient in temperature and pH, we show that distantly-related coral species undergo consistent intraspecific changes as they cross into warm, acidic environments. Intraspecific variation and species turnover each favoured colonies with greater tissue biomass, higher symbiont densities, and reduced skeletal investments, indicating strong filtering on colony physiology within and across species. Physiological tissue traits were highly variable within species, and were independent of morphology, enabling morphologically diverse species to cross into sites of elevated temperature and acidity. Widespread intraspecific change can therefore counter loss of biodiversity and morphological structure across a steep environmental gradient.

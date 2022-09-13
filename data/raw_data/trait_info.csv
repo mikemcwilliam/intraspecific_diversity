@@ -1,0 +1,11 @@
+﻿trait,type,label,unit,name
+chl_a,Tissue,CH,ug_cm2,Chlorophyll content
+zoox,Tissue,ZD,cells_cm2,Zooxanthellae density
+protein,Tissue,PB,mg_cm2,Protein biomass
+SD_gcm3,Skeleton,SD,g_cm3,Skeletal density
+branch_density,Morphology,BD,br_cm2,Branch density
+biomass,Tissue,TB,mg_cm2,Tissue biomass
+SAV,Morphology,SV,NA,Surface:volume ratio
+polyp_size,Morphology,CW,cm,Corallite size
+branch_height,Morphology,BH,cm,Branch height
+branch_width,Morphology,BW,cm,Branch width

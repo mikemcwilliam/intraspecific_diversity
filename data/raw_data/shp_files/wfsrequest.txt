@@ -1,0 +1,1 @@
+http://geo.pacioos.hawaii.edu/geoserver/PACIOOS/pw_unepwcmc_all_coralreefs/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=pw_unepwcmc_all_coralreefs&outputFormat=SHAPE-ZIP

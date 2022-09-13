@@ -1,0 +1,22 @@
+"","species","spp","genus","family","cols","samples","occurence","samp_site","Inner","Lagoon","Outer","Occ"
+"1","Acropora cf. subglabra","Asu","Acropora","Acroporiidae","#ff7f00",16,6,2.66666666666667,8,7,1,"Both"
+"2","Acropora cf. humilis","Ahu","Acropora","Acroporiidae","grey",2,1,2,0,0,2,"Outer"
+"3","Acropora cf. hyacinthus","Ahy","Acropora","Acroporiidae","#1f78b4",11,3,3.66666666666667,0,3,8,"Outer"
+"4","Acropora cf. muricata","Amu","Acropora","Acroporiidae","#6a3d9a",11,4,2.75,1,6,4,"Both"
+"5","Acropora cf. tenuis","Ate","Acropora","Acroporiidae","#fdbf6f",7,2,3.5,0,4,3,"Outer"
+"6","Anacropora spinosa","Ana","Anacropora","Acroporiidae","slategrey",4,2,2,4,0,0,"Inner"
+"7","Goniastrea spp.","Gon","Goniastrea","Lobo_merulinidae","#e31a1c",13,5,2.6,9,0,4,"Both"
+"8","Isopora cf. brueggemanni","Ibr","Isopora","Acroporiidae","#cab2d6",14,4,3.5,7,4,3,"Both"
+"9","Lobophyllia spp.","Lob","Lobophyllia","Lobo_merulinidae","#fb9a99",NA,NA,NA,NA,NA,NA,NA
+"10","Lobophyllia cf. corymbosa","Lco","Lobophyllia","Lobo_merulinidae","#fb9a99",2,1,2,2,0,0,"Inner"
+"11","Lobophyllia cf. hemprichii","Lhe","Lobophyllia","Lobo_merulinidae","#fb9a99",5,2,2.5,5,0,0,"Inner"
+"12","Pocillopora cf. damicornis","Pda","Pocillopora","Pocilloporidae","#a6cee3",23,7,3.28571428571429,8,7,8,"Both"
+"13","Pocillopora cf. verrucosa","Pve","Pocillopora","Pocilloporidae","grey",4,2,2,0,0,4,"Outer"
+"14","Porites cf. attenuata","Pat","Porites","Poritidae","#33a02c",NA,NA,NA,NA,NA,NA,NA
+"15","Porites cf. cylindrica","Pcy","Porites","Poritidae","#33a02c",22,7,3.14285714285714,12,8,2,"Both"
+"16","Porites cf. nigrescens","Pni","Porites","Poritidae","grey",2,1,2,0,0,2,"Outer"
+"17","Porites cf. rus","Pru","Porites","Poritidae","#b2df8a",17,7,2.42857142857143,8,5,4,"Both"
+"18","Stylophora cf. pistillata","Spi","Stylophora","Pocilloporidae","grey",2,1,2,0,0,2,"Outer"
+"19","Goniastrea cf. retiformis","Gre","Goniastrea","Lobo_merulinidae","#e31a1c",NA,NA,NA,NA,NA,NA,NA
+"20","Goniastrea cf. stelligera","Gst","Goniastrea","Lobo_merulinidae","#e31a1c",NA,NA,NA,NA,NA,NA,NA
+"21","Goniastrea cf. favulus","Gfa","Goniastrea","Lobo_merulinidae","#e31a1c",NA,NA,NA,NA,NA,NA,NA
