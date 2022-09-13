@@ -1,8 +1,8 @@
 
-filenames <- list.files("data/raw_data/protein_data", pattern="*.txt", full.names=TRUE)
+filenames <- list.files("data/raw_data/protein_data/txt_files", pattern="*.txt", full.names=TRUE)
 ldf <- lapply(filenames, function(x) read.table(x, fill=T, sep="\t"))
 names(ldf) <- gsub(".txt", "", filenames)
-names(ldf) <- gsub("data/raw_data/protein_data/", "", names(ldf) )
+names(ldf) <- gsub("data/raw_data/protein_data/txt_files/", "", names(ldf) )
 
 
 store <- NULL

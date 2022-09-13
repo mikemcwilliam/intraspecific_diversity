@@ -1,12 +1,12 @@
 
 
-filenames <- list.files("data/chlorophyll_data", pattern="*.txt", full.names=TRUE)
+filenames <- list.files("data/raw_data/chlorophyll_data/txt_files", pattern="*.txt", full.names=TRUE)
 
 ldf <- lapply(filenames, function(x) read.table(x, fill=T, sep="\t"))
 names(ldf) <- gsub(".txt", "", filenames)
-names(ldf) <- gsub("data/chlorophyll_data/plate", "", names(ldf) )
+names(ldf) <- gsub("data/raw_data/chlorophyll_data/txt_files/plate", "", names(ldf) )
 
-chl<-read.csv("data/chlorophyll_data/chlorophyll_wells.csv")
+chl<-read.csv("data/raw_data/chlorophyll_data/chlorophyll_wells.csv")
 chl$well <- paste(gsub("Plate ", "", chl$Tray), chl$Sample, sep=".")
 
 store <- NULL
@@ -63,5 +63,5 @@ head(store_mean)
 			
 		store_mean <- store_mean[!store_mean$ID=="Acetone",]
 		
-		write.csv(store_mean, "data/chlorophyll_data/chlorophyll_data.csv")
+		write.csv(store_mean, "data/raw_data/chlorophyll_data/chlorophyll_data.csv")
 
