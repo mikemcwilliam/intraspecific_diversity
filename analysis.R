@@ -31,7 +31,6 @@ dat$Occ2 <- ifelse(dat$Occ=="Both", "Generalists", "Specialists")
 shades <- dat$col
 names(shades) <- dat$ID
 
-
 ####################################
 ####################################
 ####################################
@@ -81,10 +80,8 @@ facet_grid(Occ~., scales="free_y", space="free_y")
 ####################################
 ####################################
 #  % accounted for in sampling
-# linking groups
 
 a_site$samp <- ifelse(a_site$SpeciesS=="Unsampled", "n", "y")
-#a_site$samp <- ifelse(a_site$SpeciesS=="Porites Massive", "n", a_site$samp)
 total <- aggregate(cover~SiteID, a_site, sum)
 sampd <- aggregate(cover~samp+SiteID, a_site, sum)
 sampd$tot <- total$cover[match(sampd$SiteID, total$SiteID)]
@@ -112,7 +109,6 @@ biplot(pca)
 ####################################
 ####################################
 # Fig.1
-
 source("R/map_palau.R")
 source("figs/fig1.R")
 fig.1
@@ -178,9 +174,7 @@ geom_segment(aes(x=d.upper, xend=d.lower, y=reorder(label, e.size), yend=reorder
 ####################################
 ####################################
 ####################################
- 
-# species specific responses
-# change in averages inside to out
+# species specific responses (averages in-out)
 
 splist <- unique(tdat$Species[tdat$Occ=="Both"])
 
@@ -236,7 +230,6 @@ fig.2
 ####################################
 # Locally dominant species 
 
-dat$spp <- spp$spp[match(dat$Species, spp$species)]
 pca3 <- prcomp(na.omit(log(dat[,traits])), center=T, scale=T)
 biplot(pca3)
 
@@ -245,7 +238,6 @@ pcdat <- cbind(na.omit(dat[,c(traits, "ID","Species","Species_TB", "Genus","Site
 ####################################
 ####################################
 ####################################
-
 # CWMs
 library("FD")
 
